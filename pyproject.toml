@@ -19,3 +19,9 @@ dependencies = [
 where = ["src"]
 
 [tool.ruff]
+line-length = 100
+indent-width = 4
+
+[tool.ruff.format]
+quote-style = "double"
+line-ending = "auto"
